@@ -14,4 +14,4 @@ Important files that must be present in the GitHub repo:
 - `Future Stock price prediction.pkl`
 - `scaler.pkl`
 
-`runtime.txt` is useful for some hosts, but Streamlit Community Cloud sets Python from the deployment Advanced settings instead.
+`runtime.txt` is useful for some hosts, but Streamlit Community Cloud sets Python from the deployment Advanced settings instead. If the app was already deployed with another Python version, delete and redeploy it with Python `3.11`; rebooting does not change the Python version.
